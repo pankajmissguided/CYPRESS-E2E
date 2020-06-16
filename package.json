@@ -1,0 +1,22 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "Testing End to end",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run-dashboard": "cypress run --record --key 88204f1c-0c75-4688-a762-093976833dbf"
+  },
+  "keywords": [
+    "Automation",
+    "teting",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.8.0",
+    "prettier": "^2.0.5"
+  }
+}
